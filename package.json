@@ -1,0 +1,25 @@
+{
+    "name": "biconomy-example",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "test": "npx tsx src/index.ts"
+    },
+    "dependencies": {
+      "@biconomy/smart-account": "^0.0.2",
+      "@truffle/hdwallet-provider": "^2.1.1",
+      "ethers": "^5.6.9"
+    },
+    "devDependencies": {
+      "@typescript-eslint/eslint-plugin": "^5.4.0",
+      "@typescript-eslint/parser": "^5.4.0",
+      "eslint": "^7.32.0",
+      "typescript": "~4.5.5"
+    },
+    "browser": {
+      "fs": false,
+      "path": false,
+      "os": false
+    }
+  }
+  
